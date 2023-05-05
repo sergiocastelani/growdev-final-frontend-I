@@ -1,0 +1,51 @@
+body {
+    font-family: Garamond;
+    display: flex;
+    margin: 0px;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    align-self: center;
+    margin-left: 20px;
+}
+
+nav {
+    text-align: center;
+    vertical-align: middle;
+}
+nav > a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #d69999;
+}
+nav > a > strong {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.primary-color{
+    color: #b9341c;
+}
+.primary-color-bg{
+    background-color: #b9341c;
+}
+
+.secondary-color{
+    color: #da6464;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 100px;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
