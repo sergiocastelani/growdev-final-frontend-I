@@ -1,8 +1,12 @@
 body {
-    font-family: Garamond;
+    font-family: 'Oswald', sans-serif;
     display: flex;
     margin: 0px;
     height: 100vh;
+}
+
+strong {
+    color: #145DA0;
 }
 
 main {
@@ -17,9 +21,13 @@ nav {
 }
 nav > a {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-decoration: none;
-    color: #d69999;
+    color: #B1D4E0;
+    transition: all .2s ease-in-out;
+}
+nav > a:hover {
+    transform: scale(1.2);
 }
 nav > a > strong {
     color: #ffffff;
@@ -27,19 +35,24 @@ nav > a > strong {
 }
 
 .primary-color{
-    color: #b9341c;
+    color: #0C2D48;
 }
 .primary-color-bg{
-    background-color: #b9341c;
+    background-color: #0C2D48;
 }
-
 .secondary-color{
-    color: #da6464;
+    color: #145DA0;
+}
+.third-color{
+    color: #B1D4E0;
 }
 
 .nav-section {
     display: flex;
     align-items: center;
+    border-width: 0px 15px 0px 0px;
+    border-style: solid;
+    border-color: #145DA0;
 }
 
 .profile-picture {
