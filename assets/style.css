@@ -1,8 +1,9 @@
 body {
     font-family: 'Oswald', sans-serif;
     display: flex;
+    align-items: stretch;
     margin: 0px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 strong {
@@ -10,9 +11,10 @@ strong {
 }
 
 main {
-    flex-grow: 1;
     align-self: center;
+    flex-grow: 1;
     margin-left: 20px;
+    font-size: 20pt;
 }
 
 nav {
@@ -49,7 +51,7 @@ nav > a > strong {
 
 .nav-section {
     display: flex;
-    align-items: center;
+    padding-top: 200px;
     border-width: 0px 15px 0px 0px;
     border-style: solid;
     border-color: #145DA0;
