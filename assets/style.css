@@ -5,6 +5,8 @@ body {
     margin: 0px;
     min-height: 100vh;
     overflow-x: hidden;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
 }
 
 strong {
@@ -63,6 +65,12 @@ nav > a > strong {
     border-width: 7px;
     border-style: solid;
     border-radius: 50%;
+}
+
+hr {
+    border-width: 0px;
+    height: 1px;
+    background-color: black;
 }
 
 /* ---- */
