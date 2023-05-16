@@ -7,6 +7,7 @@ body {
     overflow-x: hidden;
     background-image: url(./images/bg.jpg);
     background-size: cover;
+    animation: bg-animation-keys 40s linear infinite alternate;
 }
 
 strong {
@@ -129,5 +130,14 @@ hr {
     100% {
       transform: translateZ(0);
       opacity: 1;
+    }
+  }
+
+  @keyframes bg-animation-keys {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 110%;
     }
   }
