@@ -24,6 +24,7 @@ main {
 nav {
     text-align: center;
     vertical-align: middle;
+    font-size: 15pt;
 }
 nav > a {
     display: block;
@@ -59,6 +60,8 @@ nav > a > strong {
     border-width: 0px 15px 0px 0px;
     border-style: solid;
     border-color: #145DA0;
+    background-image: url(./images/menu-bg.jpg);
+    background-size: 155%;
 }
 
 .profile-picture {
