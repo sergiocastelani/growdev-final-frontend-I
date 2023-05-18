@@ -40,14 +40,22 @@
 <body>
 
     <section class="nav-section primary-color-bg">
+        <p class="third-color">
+            <span onclick="changeLang('pt')">PT</span> | <span onclick="changeLang('en')">EN</span>
+        </p>
         <div>
             <figure class="profile-picture">
                 <img src="assets/images/profile.png" alt="Foto"/>
             </figure>
-            <nav>
+            <nav class="pt">
                 <a href="index.html"><strong>Sobre</strong></a> <br>
                 <a href="conhecimentos.html">Conhecimentos</a> <br>
                 <a href="objetivos.html">Objetivos</a> <br>
+            </nav>
+            <nav class="en">
+                <a href="index.html"><strong>About</strong></a> <br>
+                <a href="conhecimentos.html">Knowledge</a> <br>
+                <a href="objetivos.html">Objectives</a> <br>
             </nav>
         </div>
     </section>
@@ -67,7 +75,9 @@
 
         <section>
             <p class="slide-in-right" style="animation-delay: 0.3s;">
-                Estou atualmente buscando me desenvolver em <em>full stack developer</em> junto à
+                <span class="pt">Estou atualmente buscando me desenvolver em <em>full stack developer</em> junto à</span>
+                <span class="en">Currently, I'm deepening my skills with <em>full stack developer</em> at</span>
+
                 <a href="https://www.growdev.com.br" target="_blank" class="secondary-color">Growdev</a>.
             </p>
             <p class="social-links slide-in-right" style="animation-delay: 0.4s;">
@@ -80,6 +90,8 @@
             </p>
         </section>
     </main>
-
 </body>
+
+<script src="scripts/language.js"></script>
+
 </html>

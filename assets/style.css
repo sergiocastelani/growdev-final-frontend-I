@@ -1,7 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
     display: flex;
-    align-items: stretch;
     margin: 0px;
     min-height: 100vh;
     overflow-x: hidden;
@@ -56,12 +55,23 @@ nav > a > strong {
 
 .nav-section {
     display: flex;
-    padding-top: 210px;
+    flex-flow: column;
     border-width: 0px 15px 0px 0px;
     border-style: solid;
     border-color: #145DA0;
     background-image: url(./images/menu-bg.jpg);
     background-size: 155%;
+}
+.nav-section > p {
+    font-family: monospace;
+    font-size: 10pt;
+    margin: 10px auto;
+}
+.nav-section > p > span {
+    cursor: pointer;
+}
+.nav-section > div {
+    margin-top: 200px;
 }
 
 .profile-picture {
@@ -81,6 +91,10 @@ hr {
     border-width: 0px;
     height: 1px;
     background-color: #0c8ac8;
+}
+
+.hide {
+    display: none;
 }
 
 /* ---- */

@@ -23,14 +23,22 @@
 <body>
 
     <section class="nav-section primary-color-bg">
+        <p class="third-color">
+            <span onclick="changeLang('pt')">PT</span> | <span onclick="changeLang('en')">EN</span>
+        </p>
         <div>
             <figure class="profile-picture">
                 <img src="assets/images/profile.png" alt="Foto"/>
             </figure>
-            <nav>
+            <nav class="pt">
                 <a href="index.html">Sobre</a> <br>
                 <a href="conhecimentos.html"><strong>Conhecimentos</strong></a> <br>
                 <a href="objetivos.html">Objetivos</a> <br>
+            </nav>
+            <nav class="en">
+                <a href="index.html">About</a> <br>
+                <a href="conhecimentos.html"><strong>Knowledge</strong></a> <br>
+                <a href="objetivos.html">Objectives</a> <br>
             </nav>
         </div>
     </section>
@@ -38,7 +46,8 @@
     <main>
         <section>
             <h1 class="fade-in-fwd" style="animation-delay: 0s;">
-                Desenvolvimento Desktop
+                <span class="pt">Desenvolvimento Desktop</span>
+                <span class="en">Desktop Development</span>
             </h1>
             <hr>
             <ul class="fade-in-fwd" style="animation-delay: 0.5s;">
@@ -51,7 +60,8 @@
         </section>
         <section>
             <h1 class="fade-in-fwd" style="animation-delay: 0s;">
-                Desenvolvimento Web
+                <span class="pt">Desenvolvimento Web</span>
+                <span class="en">Web Development</span>
             </h1>
             <hr>
             <ul class="fade-in-fwd" style="animation-delay: 1s;">
@@ -65,7 +75,8 @@
         </section>
         <section>
             <h1 class="fade-in-fwd" style="animation-delay: 0s;">
-                Sistemas Operacionais
+                <span class="pt">Sistemas Operacionais</span>
+                <span class="en">Operating Systems</span>
             </h1>
             <hr>
             <ul class="fade-in-fwd" style="animation-delay: 1.5s;">
@@ -76,4 +87,7 @@
         </section>
     </main>
 </body>
+
+<script src="scripts/language.js"></script>
+
 </html>
