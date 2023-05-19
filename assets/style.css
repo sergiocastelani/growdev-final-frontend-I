@@ -45,6 +45,12 @@ header {
   background-size: 155%;
 }
 
+.menu {
+  position: sticky;
+  top: 20px;
+  bottom: 20px;
+}
+
 nav {
   text-align: center;
   vertical-align: middle;
@@ -52,7 +58,7 @@ nav {
 }
 nav > a {
   display: block;
-  margin-bottom: 30px;
+  margin-top: 30px;
   text-decoration: none;
   color: #B1D4E0;
   transition: all .2s ease-in-out;
@@ -73,10 +79,6 @@ nav > a > strong {
 }
 .lang-selection > span {
   cursor: pointer;
-}
-
-.profile-picture {
-  margin-bottom: 30px;
 }
 
 .profile-picture img {
