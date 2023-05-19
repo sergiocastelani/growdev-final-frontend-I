@@ -23,8 +23,9 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background-image: url(./images/bg.jpg);
-  background-size: cover;
-  animation: bg-animation-keys 40s linear infinite alternate;
+  background-attachment: fixed;
+  background-repeat: repeat round;
+  animation: bg-animation-keys 30s linear infinite alternate;
 }
 
 main {
@@ -161,9 +162,9 @@ hr {
 
   @keyframes bg-animation-keys {
     0% {
-        background-size: 100%;
+      background-size: 100%;
     }
     100% {
-        background-size: 110%;
+      background-size: 110%;
     }
   }
