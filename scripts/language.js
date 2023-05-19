@@ -19,7 +19,7 @@ function changeLang(lang)
     // if language matches, display
     if (langType == lang) 
     {
-      var langElems = document.querySelectorAll('.' + langType);
+      var langElems = document.querySelectorAll('[lang="' + langType + '"]');
       langElems.forEach((elem) => 
       {
         elem.classList.remove("hide");
@@ -35,9 +35,10 @@ function changeLang(lang)
 // function to hide language
 function hideLang(lang) 
 {
-  var langElems = document.querySelectorAll('.' + lang);
+  var langElems = document.querySelectorAll('[lang="' + lang + '"]');
   langElems.forEach((elem) => 
   {
-    elem.classList.add("hide");
+    if (elem.tagName != "HTML")
+      elem.classList.add("hide");
   })
 }
